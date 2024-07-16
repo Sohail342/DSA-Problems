@@ -13,4 +13,4 @@ Happy coding and solving DSA problems!
 You can clone this repository to your local machine using:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Sohail342/DSA-Problems.git
