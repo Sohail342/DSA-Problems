@@ -15,7 +15,15 @@ You can clone this repository to your local machine using:
 ```bash
 git clone https://github.com/Sohail342/DSA-Problems.git
 ```
+## Contributing
+I welcome contributions from the community! If you have any solutions, improvements, or suggestions for problems not yet covered in this repository, feel free to submit a pull request. Please follow these guidelines:
 
+- **Fork the repository** and clone it to your local machine.
+- **Create a new branch** for your changes.
+- **Add your solution** to the appropriate directory or create a new directory if necessary.
+- **Ensure your code** adheres to the existing style and practices used in the repository.
+- **Submit a pull request** with a clear description of your changes.
+  
 ## Contact
 If you have any questions or feedback, feel free to reach out:
 <p align="left">
