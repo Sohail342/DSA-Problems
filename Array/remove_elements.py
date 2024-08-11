@@ -1,5 +1,5 @@
 '''
-Remove all the occurance of praticular element for the array or list.
+Remove all the occurance of praticular element from the array or list.
 
 The function iterates through the list nums and appends elements that 
 are not equal to val to the removed_list and skip the iteration where val is equal to array elemet. 
