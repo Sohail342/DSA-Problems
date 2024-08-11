@@ -8,10 +8,12 @@ Example 1:
 
 Input: nums = [1,3,5,6], target = 5
 Output: 2
+
 Example 2:
 
 Input: nums = [1,3,5,6], target = 2
 Output: 1
+
 Example 3:
 
 Input: nums = [1,3,5,6], target = 7
@@ -31,7 +33,7 @@ def searchInsert(nums, target) -> int:
 
 if __name__ == "__main__":
     
-    print(searchInsert([3,8,6], 0))
+    print(searchInsert([1,3,5,6], 5))
     
     
 '''
