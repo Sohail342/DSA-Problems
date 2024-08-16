@@ -13,7 +13,7 @@ Middle values are = 8, 3
 '''
 
 # First Approach with O(n) Time Complexity
-def midddleValue(arr) -> int:
+def midddleValue(arr):
     i, j = 0, len(arr)-1
     while i < len(arr) and j != -1:
         
