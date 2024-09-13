@@ -24,6 +24,17 @@ class Linkedlist:
         else:
             new_node.next = self.head
             self.head = new_node
+            
+    def insertAtEnd(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+        else:
+            current = self.head
+            while current.next != None:
+                current = current.next
+            
+            current.next = new_node
     
     def printLinkedList(self):
         current = self.head
@@ -36,8 +47,11 @@ class Linkedlist:
 if __name__ == "__main__":
     
     linkedlist = Linkedlist()
-    linkedlist.insertAtBegin('9')
+    linkedlist.insertAtBegin('7')
     linkedlist.insertAtBegin(0)
+    linkedlist.insertAtBegin(90)
+    linkedlist.insertAtEnd(9)
+    linkedlist.insertAtEnd('12')
     print(linkedlist.printLinkedList())
             
         
