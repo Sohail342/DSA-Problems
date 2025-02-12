@@ -35,7 +35,23 @@ class Linkedlist:
                 current = current.next
             
             current.next = new_node
+            
+            
+    def deleteFromBeginning(self):
+        if self.head is None:
+            return "Linkedlist is Empty"
+        
+        self.head = self.head.next
     
+    def search(self, value):
+        current = self.head
+        position = 0
+        while current:
+            if current.data == value:
+                return f'The {value} is at {position} index'
+            current = current.next
+            position += 1 
+        
     def printLinkedList(self):
         current = self.head
         str_data = ''
@@ -52,6 +68,8 @@ if __name__ == "__main__":
     linkedlist.insertAtBegin(90)
     linkedlist.insertAtEnd(9)
     linkedlist.insertAtEnd('12')
+    linkedlist.deleteFromBeginning()
+    print(linkedlist.search('12'))
     print(linkedlist.printLinkedList())
             
         
